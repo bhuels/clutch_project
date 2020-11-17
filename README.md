@@ -3,7 +3,7 @@
 A python API using Flask to convert an address to geospatial data and identify the state.
 
 Run these commands from a terminal from the same folder as the files are stored.
-Folder name must be app to run correctly.
+Folder must be named "app" to run correctly.
 
 **************************************************************************************
 *** Note: Before running you will need to open app.py and put in your personal     ***
@@ -12,9 +12,7 @@ Folder name must be app to run correctly.
 
 > docker-compose up -d --build
 
-*** Note: this copy command only for windows machines to run this project you will ***
-***       need to use local copy command.                                          ***
-> docker cp d:\us_geolocator_project\app\us_data.sql app_db_1:/scripts/
+> docker cp us_data.sql app_db_1:/scripts/
 
 > docker exec -it app_db_1 bash
 
